@@ -1,12 +1,24 @@
 ---
 layout: base
 ---
+<head>
+  <style>
+    .home h1 {
+      font-size: 2.5rem;
+    }
+
+    .home h2 {
+      font-size: 2rem;
+    }
+  </style>
+</head>
+
 
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
-
+<h2><a href="categorie">Ordina per categoria</a></h2><br>
   {{ content }}
 
 
